@@ -8,18 +8,12 @@ import Footer from "./Components/Footer/footer";
 function App() {
   return (
     <BrowserRouter>
-   
       <Header/>
       <Routes>
         <Route path="/" exact={true} element={<Home/>}/>
-
-
       </Routes>
-        <Footer />
-        
-  
+      <Footer />
     </BrowserRouter>
-    
   );
 }
 
